@@ -15,5 +15,5 @@ spl_autoload_register(
             include 'models/' .$class . '.php';
         }
     });
-route::start(); // запускаем маршрутизатор
+route::start();
 ?>
