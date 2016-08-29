@@ -1,5 +1,5 @@
 <?php
-class model_main extends model
+class model_default extends model
 {
     public function __construct()
     {

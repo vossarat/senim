@@ -10,10 +10,8 @@ class model_topmenu extends model
     {
     	$viewdata["about"] = "О центре";
     	$viewdata["criterion"] = "Критерии отбора";
-    	$viewdata["contact"] = "Контакты";
-		
-    	$viewdata["photogallery"] = "Фотогалерея";
-    	
+    	$viewdata["contact"] = "Контакты";		
+    	$viewdata["photogallery"] = "Фотогалерея";    	
         return $viewdata;
     }
 }

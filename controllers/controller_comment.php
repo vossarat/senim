@@ -3,26 +3,23 @@ class controller_comment extends controller
 {
     function __construct()
     {
+        parent::__construct();
         $this->model = new model_comment();
-        $this->view = new view();
     }
 
     function index()
-    {
-        $viewdata = $this->model->do_default_viewdata();
-        $viewdata["pagetitle"] = "Отзывы";
-        $viewdata["content"] = $this->model->get_viewdata();
-        $msg = $this->model->msg;
-        $this->view->show_view('view_comment', $viewdata,'',$msg); 
+    {       
+        $content = $this->model->get_viewdata();
+        return $viewdata["comment"] = $this->view->show_view("view_comment", $content);
     }
     
     function show($param1)
     {
-        $viewdata = $this->model->do_default_viewdata();
-        $viewdata["pagetitle"] = "Отзывы";
-        $viewdata["content"] = $this->model->show($param1);
-        $msg = $this->model->msg;
-        $this->view->show_view('view_comment', $viewdata,'',$msg); 
+    	$viewdata = $this->do_default_viewdata();
+        $viewdata["pagetitle"] = "Отзывы";        
+        $content = $this->model->show($param1);
+        $viewdata["content"] = $this->view->show_view("view_comment_general", $content);        
+        $this->view->show_view('view_template', $viewdata, true);
     }
 
 }
