@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/******************************** Меню ********************/
+#topmenu {
+    font: bold 16px Arial, Helvetica, sans-serif; /* толстый , 14 px, название,  */
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    background: #008fd5;
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+    text-transform: uppercase;
+}
+
+#topmenu ul {
+    /*float: left;*/
+    display:inline-block;
+    left: 50%;
+/*    position: relative;*/
+
+}
+
+/* Оформление блоков (пунктов) списка меню. */
+#topmenu ul li {
+    list-style: none;
+/*    position: relative;*/
+    margin-left: -2px;
+}
+
+/* Оформление ссылок в блоках списка меню.*/
+#topmenu ul li a {
+    display: block;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Ссылки при наведении*/
+#topmenu li a:hover{
+    background-color: #4db1e2;
+    color: #ffffff;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+/******************************** Конец меню ********************/
+
+
+body {
+/*	background: url("../images/oblaka_12.jpg") repeat-x;*/
+/*    background: #f0f0f0;*/
+    background: url(../images/oblaka_12.jpg) repeat-x, 
+    linear-gradient(to bottom, #D5E7FF 0%, #FFF 50%, rgb(194, 229, 233) 81%, rgb(100, 192, 212) 100%);
+    font-family: "Segoe UI";
+    color: #555555;
+}
+
+/*Определяем размер */
+#page {
+    width: 1000px;
+    margin: auto;
+}
+
+/*Общие значения для заголовков всех уровней на сайте*/
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*Оформление всех ссылок на сайте*/
+a {
+    text-decoration: underline;
+    color: #004f64;
+}
+
+/*Непосещенные ссылки*/
+a:link {
+    color: #004f64;
+}
+
+/*Посещенные ссылки*/
+a:visited{
+    color: #3b98b0;
+}
+
+/*Ссылка при наведении*/
+a:hover{
+    text-decoration: none;
+    color: #fe1919;
+}
+
+/*Оформление заголовков 1 уровня*/
+h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover{
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    color: #3b98b0;
+    margin-bottom: 5px;
+}
+
+/*Оформление заголовков 2 уровня*/
+h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover{
+    font-size: 20px;
+    color: #486AAA;
+    text-align: left;
+    border-bottom: 1px solid #a7a6aa;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/*Оформление заголовков 3 уровня*/
+h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover{
+    font-size: 16px;
+    color: #30b2cf;
+    text-align: left;
+}
+
+/*Оформление заголовков ң уровня*/
+h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover{
+    font: 20px "Segoe UI";    
+    color: #000;
+    text-align: left;
+    
+}
+
+/*Оформление заголовков 5-6 уровня.*/
+h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000;
+    text-align: left;
+}
+
+  {
+	margin-left: 20px;
+}
+
+#top{
+    height: 200px;
+    width: 1000px;
+/*    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 10px;*/
+}
+
+/*Оформление logo сайта*/
+#logo {
+	margin-top: 20px;
+    width: 174px;
+    height: 160px;
+    float: left;
+    background-image: url('../images/logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*Оформление header сайта*/
+#header {
+    margin: 60px 0px 0px 0px;
+    width: 820px;
+    float: left;
+}
+/*Оформление шрифта названия сайта*/
+#header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #486AAA;
+}
+
+.viewport{
+    width: 1000px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 250px;
+    margin: 0;
+    padding: 0;    
+}
+.slide{
+    width: 1000px;
+    height: 250px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/slide1.jpg');
+}
+.second{
+     background-image: url('../images/slide2.jpg');   
+}
+.third{
+     background-image: url('../images/slide3.jpg');   
+}
+.fourth{
+     background-image: url('../images/slide4.jpg');   
+}
+
+#left, #right {
+    float: left;
+    width: 250px;
+}
+
+#phone, #comment {
+    width: 100%;    
+    margin-bottom: 20px;
+    background: #E1F7FD;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+#phone h3, #comment h3  {
+    margin: 20px 0px 20px 0px;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 0px ;
+    background: #008fd5 ;
+    border: 3px #fff double ; 
+}
+
+#comment {
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+#phone{
+	font: bold 34px Arial, Helvetica, sans-serif;
+	color: #008fd5;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#content {
+    float: left;
+    height: auto;
+    width: 420px;
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+#footer
+{
+	width: 100%;
+	float: left;
+    padding: 25px 0px;
+    background: #f7f7f7;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+#flower1, #flower2, #flower3, #flower4, #flower5
+{
+	display: none;
+	width: 100%;
+	float: left;
+    padding: 25px 0px;
+    background: #f7f7f7;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/******Вертикальный слайдер*********************************/
+.ticker {
+    width: 220px;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+
+#ticker {
+    height: 485px;
+    margin-bottom: 20px;
+
+}
+
+.ticker li {    
+    height: 100px;
+    border-bottom: 1px dotted #DDD;
+    margin-bottom: 20px;
+
+}
+/********конец Вертикальный слайдер***************************/
+
+
+#viewport{
+    width: 705px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+#viewport ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 705px;
+    margin: 0;
+    padding: 0;    
+}
+#viewport ul li{
+    width: 705px;
+    height: 350px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+

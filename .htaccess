@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^akmzdrav\.kz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.akmzdrav\.kz$
+RewriteRule ^ood\/?$ "http\:\/\/onko\-akmol\.kz\/" [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

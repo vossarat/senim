@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0
+}
+
+#topmenu {
+    font: bold 16px Arial, Helvetica, sans-serif; /* толстый , 14 px, название,  */
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    background: #008fd5;
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+    text-transform: uppercase;
+}
+
+#topmenu ul {
+    /*float: left;*/
+    display:inline-block;
+    left: 50%;
+/*    position: relative;*/
+
+}
+
+/* Оформление блоков (пунктов) списка меню. */
+#topmenu ul li {
+    list-style: none;
+/*    position: relative;*/
+    margin-left: -2px;
+}
+
+/* Оформление ссылок в блоках списка меню.*/
+#topmenu ul li a {
+    display: block;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Ссылки при наведении*/
+#topmenu li a:hover{
+    background-color: #4db1e2;
+    color: #ffffff;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
