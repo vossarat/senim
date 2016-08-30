@@ -9,10 +9,8 @@ class controller_header extends controller
 
     function index()
     {
-        //$_POST = TRUE;
         $content = $this->model->get_viewdata();
-        return $viewdata["header"] = $this->view->show_view("view_header", $content);
-
+        return $this->view->show_view("view_header", $content, false, "js/js_slider.js");
     }
 }
 ?>

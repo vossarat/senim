@@ -9,7 +9,6 @@ class controller_phone extends controller
 
     function index()
     {
-        //$_POST = TRUE;
         $content = $this->model->get_viewdata();
         return $viewdata["phone"] = $this->view->show_view("view_phone", $content);
 

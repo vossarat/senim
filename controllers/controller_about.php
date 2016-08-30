@@ -13,7 +13,7 @@ class controller_about extends controller
         $viewdata["pagetitle"] = "О центре";        
         $content = $this->model->get_viewdata();
         $viewdata["content"] = $this->view->show_view("view_about", $content);        
-        $this->view->show_view('view_template', $viewdata, true);
+        $this->view->show_view('view_template', $viewdata, true, "js/js_carousel.js");
     }
 
 }

@@ -10,7 +10,7 @@ class controller_comment extends controller
     function index()
     {       
         $content = $this->model->get_viewdata();
-        return $viewdata["comment"] = $this->view->show_view("view_comment", $content);
+        return $this->view->show_view("view_comment", $content, false, "js/js_myslider.js");
     }
     
     function show($param1)

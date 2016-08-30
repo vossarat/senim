@@ -16,8 +16,6 @@
 <treenode node="do_default_viewdata;PHP:Function Name;C:\OpenServer\domains\senim\core\controller.php;f4;9;5;17;;;;vpos;;v;;r;;d4,10;;b0,0;;mtemplate_positions;;p">
 </treenode>
 <treenode node="js;PHP:Function Name;C:\OpenServer\domains\senim\core\controller.php;f4;19;5;22;;;;vpos;;v;;r;;d4,20;;b0,0;;mjsfile;;p">
-<treenode node="js/;PHP:PHP Include;C:\OpenServer\domains\senim\core\controller.php;f14;21;17;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-</treenode>
 </treenode>
 </treenode>
 <treenode node="controller_404;PHP:Class Name;C:\OpenServer\domains\senim\controllers\controller_404.php;f0;1;1;18;;;;vpos;;vcontroller;;c;;r;;d0,2;;b0,0;;m">
@@ -56,6 +54,12 @@
 <treenode node="__construct;PHP:Function Name;C:\OpenServer\domains\senim\controllers\controller_default.php;f4;3;5;8;;;;vpos;;v;;r;;d4,4;;b0,0;;m">
 </treenode>
 <treenode node="index;PHP:Function Name;C:\OpenServer\domains\senim\controllers\controller_default.php;f4;10;5;16;;;;vpos;;v;;r;;d4,11;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="controller_footer;PHP:Class Name;C:\OpenServer\domains\senim\controllers\controller_footer.php;f0;1;1;15;;;;vpos;;vcontroller;;c;;r;;d0,2;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\OpenServer\domains\senim\controllers\controller_footer.php;f4;3;5;7;;;;vpos;;v;;r;;d4,4;;b0,0;;m">
+</treenode>
+<treenode node="index;PHP:Function Name;C:\OpenServer\domains\senim\controllers\controller_footer.php;f4;9;5;14;;;;vpos;;v;;r;;d4,10;;b0,0;;m">
 </treenode>
 </treenode>
 <treenode node="controller_header;PHP:Class Name;C:\OpenServer\domains\senim\controllers\controller_header.php;f0;1;1;16;;;;vpos;;vcontroller;;c;;r;;d0,2;;b0,0;;m">
@@ -146,7 +150,13 @@
 <treenode node="get_viewdata;PHP:Function Name;C:\OpenServer\domains\senim\models\model_default.php;f11;8;5;38;;;;vpos;;v;;r;;d4,9;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="model_footer;PHP:Class Name;C:\OpenServer\domains\senim\models\model_header.php;f0;1;1;11;;;;vpos;;vmodel;;c;;r;;d0,2;;b0,0;;m">
+<treenode node="model_footer;PHP:Class Name;C:\OpenServer\domains\senim\models\model_footer.php;f0;1;1;11;;;;vpos;;vmodel;;c;;r;;d0,2;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\OpenServer\domains\senim\models\model_header.php;f11;3;5;6;;C:\OpenServer\domains\senim\models\model_footer.php;f11;3;5;6;;;;vpos;;v;;r;;d4,4;;b1,0;;m">
+</treenode>
+<treenode node="get_viewdata;PHP:Function Name;C:\OpenServer\domains\senim\models\model_header.php;f11;7;5;10;;C:\OpenServer\domains\senim\models\model_footer.php;f11;7;5;10;;;;vpos;;v;;r;;d4,8;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="model_header;PHP:Class Name;C:\OpenServer\domains\senim\models\model_header.php;f0;1;1;11;;;;vpos;;vmodel;;c;;r;;d0,2;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;C:\OpenServer\domains\senim\models\model_header.php;f11;3;5;6;;;;vpos;;v;;r;;d4,4;;b1,0;;m">
 </treenode>
 <treenode node="get_viewdata;PHP:Function Name;C:\OpenServer\domains\senim\models\model_header.php;f11;7;5;10;;;;vpos;;v;;r;;d4,8;;b1,0;;m">

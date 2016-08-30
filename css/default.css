@@ -8,7 +8,7 @@
     text-align: center;
     height: 55px;
     line-height: 55px;
-    background: #008fd5;
+    background: #fbd71a;
     color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
     text-transform: uppercase;
@@ -34,12 +34,11 @@
     display: block;
     padding: 0px 30px;
     text-decoration: none;
-    color: #fff;
+    color: #486AAA;
 }
 
 /*Ссылки при наведении*/
 #topmenu li a:hover{
-    background-color: #4db1e2;
     color: #ffffff;
     outline: none;
     position: relative;
@@ -52,13 +51,13 @@ body {
 /*	background: url("../images/oblaka_12.jpg") repeat-x;*/
 /*    background: #f0f0f0;*/
     background: url(../images/oblaka_12.jpg) repeat-x, 
-    linear-gradient(to bottom, #D5E7FF 0%, #FFF 50%, rgb(194, 229, 233) 81%, rgb(100, 192, 212) 100%);
+    linear-gradient(to bottom, #3B99F5 0%, #FFF 50%, rgb(255, 255, 255) 81%, rgb(251, 215, 26) 100%);
     font-family: "Segoe UI";
     color: #555555;
 }
 
 /*Определяем размер */
-#page {
+#page, #top {
     width: 1000px;
     margin: auto;
 }
@@ -173,6 +172,105 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     color: #486AAA;
 }
 
+#left, #right {
+    float: left;
+    width: 250px;
+}
+
+#phone, #comment {
+    width: 100%;    
+    margin-bottom: 20px;
+    background: #E1F7FD;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 15px 0px 0px;
+}
+
+#phone h3, #comment h3  {
+    margin: 20px 0px 20px 0px;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 0px ;
+    background: #fbd71a ;
+    /*border: 3px #fff double ;*/
+    border-radius: 0px 15px; 
+}
+
+#comment {
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+#phone{
+	font: bold 34px Arial, Helvetica, sans-serif;
+	color: #008fd5;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#content {
+    float: left;
+    height: auto;
+    width: 420px;
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+#footer
+{
+	width: 100%;
+	float: left;
+    padding: 25px 0px;
+    background: #f7f7f7;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 20px 20px 0px 0px; 
+    
+}
+
+#flower1, #flower2, #flower3, #flower4, #flower5
+{
+	display: none;
+	width: 100%;
+	float: left;
+    padding: 25px 0px;
+    background: #f7f7f7;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/******Вертикальный слайдер*********************************/
+.ticker {
+    width: 220px;
+    overflow: hidden;
+    margin: 20px;    
+}
+
+#ticker {
+    height: 485px;
+    margin-bottom: 20px;
+}
+
+.ticker li {    
+    height: 100px;
+    border-bottom: 1px dotted #DDD;
+    margin-bottom: 20px;
+}
+/********конец Вертикальный слайдер***************************/
+
+/***************** Мой горизонтальный слайдер ***************/
+#topslider {
+	border: 1px solid;
+    width: 998px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+/***************** Конец мой горизонтальный слайдер ***************/
+
+
 .viewport{
     width: 1000px;
     height: 250px;
@@ -206,114 +304,28 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
      background-image: url('../images/slide4.jpg');   
 }
 
-#left, #right {
-    float: left;
-    width: 250px;
+/***********Слайдер Русакова**********************/
+#container {
+  border: 1px solid;
+  text-align: center;
+  width: 248px;
 }
-
-#phone, #comment {
-    width: 100%;    
-    margin-bottom: 20px;
-    background: #E1F7FD;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+#slider div {
+  opacity: 0;
+  position: absolute;
 }
-
-#phone h3, #comment h3  {
-    margin: 20px 0px 20px 0px;
-    color: #fff;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    padding-top: 0px ;
-    background: #008fd5 ;
-    border: 3px #fff double ; 
+#slider div.show {
+  opacity: 1;
+  z-index: 100;
 }
-
-#comment {
-	font: 14px Arial, Helvetica, sans-serif;
+#switch {
+  margin-top: 360px;
 }
-
-#phone{
-	font: bold 34px Arial, Helvetica, sans-serif;
-	color: #008fd5;
-	text-align: center;
-	padding-bottom: 25px;
+#switch img {
+  cursor: pointer;
 }
-
-#content {
-    float: left;
-    height: auto;
-    width: 420px;
-    padding: 20px;
-    background: #fff;
-    margin: 20px;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+#slider img {
+  width: 248px;
 }
-
-#footer
-{
-	width: 100%;
-	float: left;
-    padding: 25px 0px;
-    background: #f7f7f7;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
-}
-
-#flower1, #flower2, #flower3, #flower4, #flower5
-{
-	display: none;
-	width: 100%;
-	float: left;
-    padding: 25px 0px;
-    background: #f7f7f7;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
-}
-
-/******Вертикальный слайдер*********************************/
-.ticker {
-    width: 220px;
-    overflow: hidden;
-    margin: 20px;
-    
-}
-
-#ticker {
-    height: 485px;
-    margin-bottom: 20px;
-
-}
-
-.ticker li {    
-    height: 100px;
-    border-bottom: 1px dotted #DDD;
-    margin-bottom: 20px;
-
-}
-/********конец Вертикальный слайдер***************************/
-
-
-#viewport{
-    width: 705px;
-    height: 350px;
-    overflow: hidden;
-    position: relative;
-}
-#viewport ul{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 705px;
-    margin: 0;
-    padding: 0;    
-}
-#viewport ul li{
-    width: 705px;
-    height: 350px;
-    float: left;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+/*********************************/
 

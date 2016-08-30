@@ -2,8 +2,9 @@
 
 class view
 {
-    function show_view($template, $viewdata = NULL, $generalView = false)
+    function show_view($template, $viewdata = null, $generalView = false, $jsScript = null)
     {
+    	//$numargs = func_num_args();    	
         if ($generalView) {
             extract($viewdata);
             include 'views/'.$template.'.php';
@@ -19,6 +20,8 @@ class view
 			include 'views/'.$template.'.php';
 		}
     }
+    
+
 }
 
 ?>

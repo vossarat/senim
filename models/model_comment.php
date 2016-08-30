@@ -1,10 +1,3 @@
-<script>
-function tick(){
-	$('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
-	}
-	setInterval(function(){ tick () }, 3000);
-</script>
-
 <?php
 class model_comment extends model
 {

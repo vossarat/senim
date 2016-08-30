@@ -9,9 +9,8 @@ class controller_topmenu extends controller
 
     function index()
     {
-        //$_POST = TRUE;
         $content = $this->model->get_viewdata();
-        return $viewdata["topmenu"] = $this->view->show_view("view_topmenu", $content);
+        return $this->view->show_view("view_topmenu", $content);
 
     }
 }

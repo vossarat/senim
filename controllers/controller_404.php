@@ -12,8 +12,7 @@ class controller_404 extends controller
         header('HTTP/1.1 404 Not Found');
         header("Status: 404 Not Found");        
         $viewdata = $this->do_default_viewdata();        
-        $content = $this->model->get_viewdata();
-        $viewdata["content"] = $this->view->show_view("view_404", $content);        
+        $viewdata["content"] = $this->view->show_view("view_404");        
         $this->view->show_view('view_template', $viewdata, true);
     }
 }
