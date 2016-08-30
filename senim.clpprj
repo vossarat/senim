@@ -450,7 +450,7 @@
 			</treenode>
 			<treenode node="course_timer;JS:JS Var Name;C:\OpenServer\domains\senim\js\js_carousel.js;f4;4;16;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="document;JS:JS Var Name;C:\OpenServer\domains\senim\js\js_flower.js;f2;8;10;8;;C:\OpenServer\domains\senim\js\js_slider.js;f2;0;10;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="document;JS:JS Var Name;C:\OpenServer\domains\senim\js\js_flower.js;f2;8;10;8;;C:\OpenServer\domains\senim\js\js_slider.js;f2;0;10;0;;C:\OpenServer\domains\senim\js\js_topslider.js;f2;0;10;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 		</jstree>
 		<scsstree>
@@ -490,6 +490,7 @@
 		<file name="C:\OpenServer\domains\senim\models\model_comment.php" crc="-1438223553"/>
 		<file name="C:\OpenServer\domains\senim\models\model_about.php" crc="639334195"/>
 		<file name="C:\OpenServer\domains\senim\models\model_404.php" crc="-1336832068"/>
+		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="54870660"/>
 		<file name="C:\OpenServer\domains\senim\js\js_slider.js" crc="858960381"/>
 		<file name="C:\OpenServer\domains\senim\js\js_myslider.js" crc="-526339764"/>
 		<file name="C:\OpenServer\domains\senim\js\js_flower.js" crc="-488302164"/>
