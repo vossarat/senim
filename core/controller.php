@@ -7,7 +7,14 @@ class controller
         $this->view = new view();
     }
 
-    function do_default_viewdata($template_positions = array("header","topmenu", "carousel", "phone", "comment", "footer", "topslider")) //контент позиций по умолчанию
+    function do_default_viewdata($template_positions = array(
+    	"header",
+    	"topmenu", 
+    	"phone", 
+    	"comment", 
+    	"footer"//, 
+    	//"topslider"
+    	)) //контент позиций по умолчанию
     {
         foreach ($template_positions as $position) {
             $controller_position = "controller_$position";

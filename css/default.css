@@ -176,7 +176,7 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     width: 250px;
 }
 
-#phone, #comment {
+#comment {
     width: 100%;    
     margin-bottom: 20px;
     background: #E1F7FD;
@@ -184,7 +184,7 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     border-radius: 0px 15px 0px 0px;
 }
 
-#phone h3, #comment h3  {
+#comment h3  {
     margin: 20px 0px 20px 0px;
     color: #fff;
     height: 30px;
@@ -200,11 +200,38 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 	font: 14px Arial, Helvetica, sans-serif;
 }
 
-#phone{
-	font: bold 34px Arial, Helvetica, sans-serif;
+#phone {
+	width: 100%;
+    margin: 20px 0px 20px 0px;
+    background: #E1F7FD;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 25px;
+    border: 3px double #486aaa;
+    font: 14px Arial, Helvetica, sans-serif;
 	color: #008fd5;
 	text-align: center;
-	padding-bottom: 25px;
+	padding-bottom: 25px;    
+}
+
+#phone a {
+    text-decoration: none;
+    color: #486aaa;
+}
+
+#phone img {
+	margin-top: 25px;
+	border-radius: 20px;
+}
+.phone {	
+	margin:0 auto;
+	width: 200px;
+	padding: 5px;
+	margin-top: 10px;
+	border: 1px solid;
+	border-radius: 10px;	
+	font-size: 20px;
+	font-weight: bolder;
+	background: #fbd71a; 
 }
 
 #content {
@@ -259,14 +286,17 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 }
 /********конец Вертикальный слайдер***************************/
 
+
+
+
 /***************** Мой горизонтальный слайдер ***************/
-#topslider {
+/*#topslider {
 	border: 1px solid;
     width: 998px;
     height: 250px;
     overflow: hidden;
     position: relative;
-}
+}*/
 /***************** Конец мой горизонтальный слайдер ***************/
 
 
@@ -302,29 +332,4 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 .fourth{
      background-image: url('../images/slide4.jpg');   
 }
-
-/***********Слайдер Русакова**********************/
-#container {
-  border: 1px solid;
-  text-align: center;
-  width: 248px;
-}
-#slider div {
-  opacity: 0;
-  position: absolute;
-}
-#slider div.show {
-  opacity: 1;
-  z-index: 100;
-}
-#switch {
-  margin-top: 360px;
-}
-#switch img {
-  cursor: pointer;
-}
-#slider img {
-  width: 248px;
-}
-/*********************************/
 

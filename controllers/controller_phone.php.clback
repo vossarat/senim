@@ -15,7 +15,8 @@ class controller_phone extends controller
     
     function info()
     {
-        $viewdata = $this->do_default_viewdata();
+    	
+    	$viewdata = $this->do_default_viewdata();
         $viewdata["pagetitle"] = "Телефон доверия";        
         $content = $this->model->info();
         $viewdata["content"] = $this->view->show_view("view_phone_info", $content);        
