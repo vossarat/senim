@@ -18,21 +18,19 @@
     /*float: left;*/
     display:inline-block;
     left: 50%;
-/*    position: relative;*/
 
 }
 
 /* Оформление блоков (пунктов) списка меню. */
 #topmenu ul li {
     list-style: none;
-/*    position: relative;*/
     margin-left: -2px;
 }
 
 /* Оформление ссылок в блоках списка меню.*/
 #topmenu ul li a {
     display: block;
-    padding: 0px 30px;
+    padding: 0px 15px;
     text-decoration: none;
     color: #486AAA;
 }
@@ -42,6 +40,7 @@
     color: #ffffff;
     outline: none;
     position: relative;
+    border-bottom: 5px solid;    
     z-index: 1;
 }
 /******************************** Конец меню ********************/
