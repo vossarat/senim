@@ -1,23 +1,12 @@
+<script src="<?=$jsScript?>"></script>
+<h2>Реабилитация</h2>
 <table>
-	<tr><td></td><td></td><td></td></tr>
-	<tr><td></td><td></td><td></td></tr>
-	<tr><td></td><td></td><td></td></tr>
+	<tr><td><img src="/images/main/trud.JPG" width = "140px" alt = "Труд"></br><b>Труд</b></td>
+	<td></td>
+	<td><img src="/images/main/ucheba.JPG" width = "140px" alt = "Учеба"></br><b>Учеба</b></td></tr>
+	<tr><td></td><td><img src="/images/main/rasporadok.JPG" width = "140px" alt = "Распорядок"></br><b>Распорядок</b></td><td></td></tr>
+	<tr><td><img src="/images/main/dosug.JPG" width = "140px" alt = "Досуг"></br><b>Досуг</b></td>
+	<td></td>
+	<td><img src="/images/main/sport.JPG" width = "140px" alt = "Спорт"></br><b>Спорт</b></td></tr>
 </table>
-
-
-
-
-<!--
-<h2></h2>
-
-    <img src="images/flower.png"  usemap="#Navigation" width="420" height="420">
-
-    <map name="Navigation">    	
-        <area href="#" shape="circle" coords="1,1,1"><!-- Учеба 
-        <a class="flower1"><area href="#" shape="circle" coords="210,75,78"></a><!-- Учеба 
-        <a class="flower2"><area href="#" shape="circle" coords="335,170,78"></a><!--Распорядок  
-        <a class="flower3"><area href="#" shape="circle" coords="288,318,78"></a><!-- Труд 
-        <a class="flower4"><area href="#" shape="circle" coords="133,318,77"></a><!-- Досуг 
-        <a class="flower5"><area href="#" shape="circle" coords="85,170,78"></a><!-- Спорт 
-    </map>
-    -->
+<div id = "info"></div>
