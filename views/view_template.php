@@ -71,10 +71,6 @@
 
             </div>
 
-            <div id="flower">
-                <?=$flower?>
-            </div>
-
             <div id="footer">
                 <?=$footer?>
             </div>

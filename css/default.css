@@ -4,6 +4,7 @@
 }
 /******************************** Меню ********************/
 #topmenu {
+
     font: bold 16px Arial, Helvetica, sans-serif; /* толстый , 14 px, название,  */
     text-align: center;
     height: 55px;
@@ -244,6 +245,12 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
+.changeimg {
+	margin: -5px;
+  border: 5px solid #fbd71a;
+  cursor: pointer;
+}
+
 #footer
 {
 	width: 100%;
@@ -254,17 +261,6 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
     border-radius: 20px 20px 0px 0px; 
     
-}
-
-#flower1, #flower2, #flower3, #flower4, #flower5
-{
-	display: none;
-	width: 100%;
-	float: left;
-    padding: 25px 0px;
-    background: #f7f7f7;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
 /******Вертикальный слайдер*********************************/
