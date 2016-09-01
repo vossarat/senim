@@ -17,7 +17,7 @@
 
 #topmenu ul {
     /*float: left;*/
-    display:inline-block;
+    display: inline-block;
     left: 50%;
 
 }
@@ -41,16 +41,16 @@
     color: #ffffff;
     outline: none;
     position: relative;
-    border-bottom: 5px solid;    
+    border-bottom: 5px solid;
     z-index: 1;
 }
 /******************************** Конец меню ********************/
 
 
 body {
-/*	background: url("../images/oblaka_12.jpg") repeat-x;*/
-/*    background: #f0f0f0;*/
-    background: url(../images/oblaka_12.jpg) repeat-x, 
+    /*    background: url("../images/oblaka_12.jpg") repeat-x;*/
+    /*    background: #f0f0f0;*/
+    background: url(../images/oblaka_12.jpg) repeat-x,
     linear-gradient(to bottom, #3B99F5 0%, #FFF 50%, rgb(255, 255, 255) 81%, rgb(251, 215, 26) 100%);
     font-family: "Segoe UI";
     color: #555555;
@@ -122,10 +122,10 @@ h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover{
 
 /*Оформление заголовков ң уровня*/
 h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover{
-    font: 20px "Segoe UI";    
+    font: 20px "Segoe UI";
     color: #000;
     text-align: left;
-    
+
 }
 
 /*Оформление заголовков 5-6 уровня.*/
@@ -136,21 +136,21 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     text-align: left;
 }
 
-  {
-	margin-left: 20px;
+{
+    margin-left: 20px;
 }
 
 #top{
     height: 200px;
     width: 1000px;
-/*    margin-top: 20px;
+    /*    margin-top: 20px;
     margin-bottom: 15px;
     margin-right: 10px;*/
 }
 
 /*Оформление logo сайта*/
 #logo {
-	margin-top: 20px;
+    margin-top: 20px;
     width: 174px;
     height: 160px;
     float: left;
@@ -178,7 +178,7 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 }
 
 #comment {
-    width: 100%;    
+    width: 100%;
     margin-bottom: 20px;
     background: #E1F7FD;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
@@ -194,24 +194,24 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     padding-top: 0px ;
     background: #fbd71a ;
     /*border: 3px #fff double ;*/
-    border-radius: 0px 15px; 
+    border-radius: 0px 15px;
 }
 
 #comment {
-	font: 14px Arial, Helvetica, sans-serif;
+    font: 14px Arial, Helvetica, sans-serif;
 }
 
 #phone {
-	width: 100%;
+    width: 100%;
     margin: 20px 0px 20px 0px;
     background: #E1F7FD;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
     border-radius: 25px;
     border: 3px double #486aaa;
     font: 14px Arial, Helvetica, sans-serif;
-	color: #008fd5;
-	text-align: center;
-	padding-bottom: 25px;    
+    color: #008fd5;
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 #phone a {
@@ -220,19 +220,19 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 }
 
 #phone img {
-	margin-top: 25px;
-	border-radius: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
 }
-.phone {	
-	margin:0 auto;
-	width: 200px;
-	padding: 5px;
-	margin-top: 10px;
-	border: 1px solid;
-	border-radius: 10px;	
-	font-size: 20px;
-	font-weight: bolder;
-	background: #fbd71a; 
+.phone {
+    margin: 0 auto;
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: #fbd71a;
 }
 
 #content {
@@ -246,28 +246,28 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 }
 
 .changeimg {
-	margin: -5px;
-  border: 5px solid #fbd71a;
-  cursor: pointer;
+    margin: -5px;
+    border: 5px solid #fbd71a;
+    cursor: pointer;
 }
 
 #footer
 {
-	width: 100%;
-	float: left;
+    width: 100%;
+    float: left;
     padding: 25px 0px;
     background: #f7f7f7;
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
-    border-radius: 20px 20px 0px 0px; 
-    
+    border-radius: 20px 20px 0px 0px;
+
 }
 
 /******Вертикальный слайдер*********************************/
 .ticker {
     width: 220px;
     overflow: hidden;
-    margin: 20px;    
+    margin: 20px;
 }
 
 #ticker {
@@ -275,7 +275,7 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     margin-bottom: 20px;
 }
 
-.ticker li {    
+.ticker li {
     height: 100px;
     border-bottom: 1px dotted #DDD;
     margin-bottom: 20px;
@@ -287,11 +287,11 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
 
 /***************** Мой горизонтальный слайдер ***************/
 /*#topslider {
-	border: 1px solid;
-    width: 998px;
-    height: 250px;
-    overflow: hidden;
-    position: relative;
+border: 1px solid;
+width: 998px;
+height: 250px;
+overflow: hidden;
+position: relative;
 }*/
 /***************** Конец мой горизонтальный слайдер ***************/
 
@@ -308,7 +308,7 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     top: 0;
     height: 250px;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 .slide{
     width: 1000px;
@@ -320,12 +320,9 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     background-image: url('../images/slide1.jpg');
 }
 .second{
-     background-image: url('../images/slide2.jpg');   
+    background-image: url('../images/slide2.jpg');
 }
 .third{
-     background-image: url('../images/slide3.jpg');   
-}
-.fourth{
-     background-image: url('../images/slide4.jpg');   
+    background-image: url('../images/slide3.jpg');
 }
 

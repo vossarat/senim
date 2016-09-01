@@ -13,7 +13,7 @@ $(document).ready(function() {
         function request() {
             $.ajax({
                     type: "POST",
-                    url: "http://senim/default/request/"+$(this).index("#content img"),
+                    url: "/default/request/"+$(this).index("#content img"),
                     data: {
                         request: "info",
                     },

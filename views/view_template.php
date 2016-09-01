@@ -40,8 +40,8 @@
                     </li>
                     <li class='slide third'>
                     </li>
-                    <li class='slide fourth'>
-                    </li>
+                    <!--<li class='slide fourth'>
+                    </li>-->
                 </ul>
             </div>
 
