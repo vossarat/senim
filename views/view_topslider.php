@@ -1,4 +1,6 @@
 <script src="<?=$jsScript?>"></script>
-<h1>
-    <?=$viewdata?>
-</h1>
+<ul class='slidewrapper' data-current=0>
+    <li class='slide'></li>
+    <li class='slide second'></li>
+    <li class='slide third'></li>
+</ul>

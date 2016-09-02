@@ -296,7 +296,7 @@ position: relative;
 /***************** Конец мой горизонтальный слайдер ***************/
 
 
-.viewport{
+#topslider{
     width: 1000px;
     height: 250px;
     overflow: hidden;
@@ -320,9 +320,9 @@ position: relative;
     background-image: url('../images/slide1.jpg');
 }
 .second{
-    background-image: url('../images/slide2.jpg');
+    background-image: url('../images/slide2_cr.jpg');
 }
 .third{
-    background-image: url('../images/slide3.jpg');
+    background-image: url('../images/slide3_cr.jpg');
 }
 

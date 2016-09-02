@@ -19,43 +19,28 @@
             </div>
             <div id="header">
                 <?=$header?>
-            </div>                     
-            
+            </div>
+
         </div><!-- конец блока top -->
-        
+
         <div id="topmenu">
             <?=$topmenu?>
         </div>
-        
+
         <div id="page">
-        	<div id="topslider">
-        	<?=$topslider?>
-        	</div>
-        
-            <div class='viewport'>
-                <ul class='slidewrapper' data-current=0>
-                    <li class='slide'>
-                    </li>
-                    <li class='slide second'>
-                    </li>
-                    <li class='slide third'>
-                    </li>
-                    <!--<li class='slide fourth'>
-                    </li>-->
-                </ul>
+            <div id ='topslider'>
+                <?=$topslider?>
             </div>
-
-
 
             <div id="left">
 
                 <div id = "phone">
                     <?=$phone?>
                 </div>
-                
-            <div id="container">
-                <?=$carousel?>
-            </div>
+
+                <div id="container">
+                    <?=$carousel?>
+                </div>
 
             </div>
 

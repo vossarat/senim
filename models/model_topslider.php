@@ -7,7 +7,7 @@ class model_topslider extends model
     }
     public function get_viewdata()
     {
-        return "Cлайдер";
+        return;
     }
 }
 ?>

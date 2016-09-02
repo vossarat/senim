@@ -10,7 +10,7 @@ class controller_header extends controller
     function index()
     {
         $content = $this->model->get_viewdata();
-        return $this->view->show_view("view_header", $content, false, "js/js_slider.js");
+        return $this->view->show_view("view_header", $content, false);
     }
 }
 ?>
