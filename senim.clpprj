@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\OpenServer\domains\senim\senim.clpprj">
 	<settings><PM_URL><![CDATA[]]></PM_URL><PM_HOME_URL><![CDATA[]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_topslider.php"/>
+		<file name="C:\OpenServer\domains\senim\js\js_topslider.js"/>
+		<file name="C:\OpenServer\domains\senim\models\model_topslider.php"/>
+		<file name="C:\OpenServer\domains\senim\views\view_topslider.php"/>
+		<file name="C:\OpenServer\domains\senim\css\default.css"/>
+		<file name="C:\OpenServer\domains\senim\views\view_template.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
@@ -8,8 +14,9 @@
 	</laravael><todoblock>
 	</todoblock>
 	<filescache>
+		<file name="C:\OpenServer\domains\senim\views\view_topslider.php" crc="1473071223"/>
 		<file name="C:\OpenServer\domains\senim\views\view_topmenu.php" crc="1472471138"/>
-		<file name="C:\OpenServer\domains\senim\views\view_template.php" crc="1472805588"/>
+		<file name="C:\OpenServer\domains\senim\views\view_template.php" crc="1473072913"/>
 		<file name="C:\OpenServer\domains\senim\views\view_photogallery.php" crc="1472618347"/>
 		<file name="C:\OpenServer\domains\senim\views\view_phone_info.php" crc="1472639591"/>
 		<file name="C:\OpenServer\domains\senim\views\view_phone.php" crc="1472639875"/>
@@ -25,6 +32,7 @@
 		<file name="C:\OpenServer\domains\senim\views\view_comment.php" crc="1472618347"/>
 		<file name="C:\OpenServer\domains\senim\views\view_about.php" crc="1472472087"/>
 		<file name="C:\OpenServer\domains\senim\views\view_404.php" crc="1472467371"/>
+		<file name="C:\OpenServer\domains\senim\models\model_topslider.php" crc="1472805928"/>
 		<file name="C:\OpenServer\domains\senim\models\model_topmenu.php" crc="1472624646"/>
 		<file name="C:\OpenServer\domains\senim\models\model_photogallery.php" crc="1472467370"/>
 		<file name="C:\OpenServer\domains\senim\models\model_phone.php" crc="1472639371"/>
@@ -38,10 +46,10 @@
 		<file name="C:\OpenServer\domains\senim\models\model_comment.php" crc="1472624489"/>
 		<file name="C:\OpenServer\domains\senim\models\model_about.php" crc="1472624162"/>
 		<file name="C:\OpenServer\domains\senim\models\model_404.php" crc="1472467368"/>
-		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="1472813840"/>
+		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="1473072913"/>
 		<file name="C:\OpenServer\domains\senim\js\js_myslider.js" crc="1472815780"/>
 		<file name="C:\OpenServer\domains\senim\js\js_default.js" crc="1472708804"/>
-		<file name="C:\OpenServer\domains\senim\css\default.css" crc="1472811955"/>
+		<file name="C:\OpenServer\domains\senim\css\default.css" crc="1473078719"/>
 		<file name="C:\OpenServer\domains\senim\core\view.php" crc="1472618347"/>
 		<file name="C:\OpenServer\domains\senim\core\route.php" crc="1472470468"/>
 		<file name="C:\OpenServer\domains\senim\core\model.php" crc="1472467628"/>
@@ -50,6 +58,7 @@
 		<file name="C:\OpenServer\domains\senim\core\database.php" crc="1472467600"/>
 		<file name="C:\OpenServer\domains\senim\core\controller.php" crc="1472805953"/>
 		<file name="C:\OpenServer\domains\senim\core\bootstrap.php" crc="1472468436"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_topslider.php" crc="1472805665"/>
 		<file name="C:\OpenServer\domains\senim\controllers\controller_topmenu.php" crc="1472618347"/>
 		<file name="C:\OpenServer\domains\senim\controllers\controller_photogallery.php" crc="1472618347"/>
 		<file name="C:\OpenServer\domains\senim\controllers\controller_phone.php" crc="1472640240"/>

@@ -28,9 +28,9 @@
         </div>
 
         <div id="page">
-            <div id ='topslider'>
+            <ul id="slides">
                 <?=$topslider?>
-            </div>
+            </ul>
 
             <div id="left">
 
