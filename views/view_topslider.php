@@ -6,8 +6,9 @@
 </ul>-->
 
 
-    <li class="slide showing">Slide 1</li>
-    <li class="slide">Slide 2</li>
-    <li class="slide">Slide 3</li>
-    <li class="slide">Slide 4</li>
-    <li class="slide">Slide 5</li>
+    <li class="topslide showing">Slide 1</li>
+    <li class="topslide">Slide 2</li>
+    <li class="topslide">Slide 3</li>
+    <li class="topslide">Slide 4</li>
+    <li class="topslide">Slide 5</li>
+    

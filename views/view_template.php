@@ -28,7 +28,8 @@
         </div>
 
         <div id="page">
-            <ul id="slides">
+        <button class="controls" id="pause">Pause</button>
+            <ul id="topslides">
                 <?=$topslider?>
             </ul>
 

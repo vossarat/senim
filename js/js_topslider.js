@@ -25,16 +25,45 @@ $(document).ready(function() {
         }
         $('.slidewrapper').animate({left: - currentSlide*slideWidth},300).data('current',currentSlide);
         }*/
-        
-        
-        var slides = document.querySelectorAll('#slides .slide');
+
+
+        var topslides = document.querySelectorAll('#topslides .topslide');
         var currentSlide = 0;
         var slideInterval = setInterval(nextSlide,2000);
 
         function nextSlide() {
-            slides[currentSlide].className = 'slide';
-            currentSlide = (currentSlide+1)%slides.length;
-            slides[currentSlide].className = 'slide showing';
+            topslides[currentSlide].className = 'topslide';
+            currentSlide = (currentSlide+1)%topslides.length;
+            topslides[currentSlide].className = 'topslide showing';
+        }
+
+
+        var playing = true;
+        var pauseButton = document.getElementById('pause');
+
+        function pauseSlideshow() {
+            pauseButton.innerHTML = 'Play';
+            playing = false;
+            clearInterval(slideInterval);
+        }
+
+        function playSlideshow() {
+            pauseButton.innerHTML = 'Pause';
+            playing = true;
+            slideInterval = setInterval(nextSlide,2000);
+        }
+
+        /*topslides.onclick = function() {
+        if(playing) {
+        pauseSlideshow();
+        } else {
+        playSlideshow();
+        }
+        };*/
+		
+		var top = document.getElementById('topslides');
+        top.onmouseover = function() {
+            console.log(" мышка тут ");
         }
 
     });
