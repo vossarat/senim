@@ -29,9 +29,10 @@
 
         <div id="page">
         <button class="controls" id="pause">Pause</button>
-            <ul id="topslides">
+            <ul id="topslides">            	
                 <?=$topslider?>
             </ul>
+            <div id = "pagi"></div>
 
             <div id="left">
 

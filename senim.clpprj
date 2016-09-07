@@ -7,6 +7,7 @@
 		<file name="C:\OpenServer\domains\senim\views\view_topslider.php"/>
 		<file name="C:\OpenServer\domains\senim\css\default.css"/>
 		<file name="C:\OpenServer\domains\senim\views\view_template.php"/>
+		<file name="C:\OpenServer\domains\senim\core\view.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
@@ -14,9 +15,9 @@
 	</laravael><todoblock>
 	</todoblock>
 	<filescache>
-		<file name="C:\OpenServer\domains\senim\views\view_topslider.php" crc="1473071223"/>
+		<file name="C:\OpenServer\domains\senim\views\view_topslider.php" crc="1473160680"/>
 		<file name="C:\OpenServer\domains\senim\views\view_topmenu.php" crc="1472471138"/>
-		<file name="C:\OpenServer\domains\senim\views\view_template.php" crc="1473072913"/>
+		<file name="C:\OpenServer\domains\senim\views\view_template.php" crc="1473250329"/>
 		<file name="C:\OpenServer\domains\senim\views\view_photogallery.php" crc="1472618347"/>
 		<file name="C:\OpenServer\domains\senim\views\view_phone_info.php" crc="1472639591"/>
 		<file name="C:\OpenServer\domains\senim\views\view_phone.php" crc="1472639875"/>
@@ -46,11 +47,11 @@
 		<file name="C:\OpenServer\domains\senim\models\model_comment.php" crc="1472624489"/>
 		<file name="C:\OpenServer\domains\senim\models\model_about.php" crc="1472624162"/>
 		<file name="C:\OpenServer\domains\senim\models\model_404.php" crc="1472467368"/>
-		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="1473072913"/>
+		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="1473250402"/>
 		<file name="C:\OpenServer\domains\senim\js\js_myslider.js" crc="1472815780"/>
 		<file name="C:\OpenServer\domains\senim\js\js_default.js" crc="1472708804"/>
-		<file name="C:\OpenServer\domains\senim\css\default.css" crc="1473078719"/>
-		<file name="C:\OpenServer\domains\senim\core\view.php" crc="1472618347"/>
+		<file name="C:\OpenServer\domains\senim\css\default.css" crc="1473250295"/>
+		<file name="C:\OpenServer\domains\senim\core\view.php" crc="1473236098"/>
 		<file name="C:\OpenServer\domains\senim\core\route.php" crc="1472470468"/>
 		<file name="C:\OpenServer\domains\senim\core\model.php" crc="1472467628"/>
 		<file name="C:\OpenServer\domains\senim\core\func.php" crc="1472467810"/>

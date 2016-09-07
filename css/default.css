@@ -334,6 +334,10 @@ position: relative;
     list-style-type: none;
 }
 
+#pagi {
+    height: 30px;
+}
+
 .topslide {
     position: absolute;
     left: 0px;
