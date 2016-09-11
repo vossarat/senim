@@ -257,6 +257,7 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     position: relative;
     height: 250px;
     list-style-type: none;
+    
 }
 
 .topslide {
@@ -296,6 +297,14 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     top: 150px;
 }
 
+.turnoff {
+    background: #fff none repeat scroll 0 0;
+}
+
+.turnon {
+    background: #2e9419 none repeat scroll 0 0;
+}
+
 #navi li {
     border-radius: 8px;
     box-shadow: 0 1px 2px #000;
@@ -304,16 +313,8 @@ h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited,
     float: left;
     height: 16px;
     margin: 0 8px 0 0;
-    opacity: 0.9;
+    opacity: 1;
     overflow: hidden;
     width: 16px;
     text-indent: -9999px;
-}
-
-.navi {
-    background: #2e9419 none repeat scroll 0 0;;
-}
-
-.navi1 {
-    background: #fff none repeat scroll 0 0;
 }

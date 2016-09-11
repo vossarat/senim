@@ -4,21 +4,32 @@ $(document).ready(function() {
         var currentSlide = 0;
         var slideInterval = setInterval(nextSlide,2000);
 
-        var navi = document.querySelectorAll('#navi li');
-        /*for (var i = 0; i < topslides.length; i++) {
-            navi[i] = '0';
-            document.getElementById("navi").innerHTML = navi[i];
-        }*/
 
-        //document.getElementById("navi").innerHTML = navi;
+        var navi = document.getElementById('navi');
+        for( var i=0; i<navi.children.length; i++ ) {
+            navi.children[i].className = 'turnoff';
+            navi.children[i].onclick = function(x) {
+                return function() {
+                    goToSlide(x);
+                }
+            }(i);
+        }
 
-		console.log(topslides);
+        navi.children[0].className = 'turnon';
 
         function nextSlide() {
             topslides[currentSlide].className = 'topslide';
-            navi[currentSlide].className = 'navi1';
+            navi.children[currentSlide].className = 'turnoff';
             currentSlide = (currentSlide+1)%topslides.length;
-            navi[currentSlide].className = 'navi';
+            navi.children[currentSlide].className = 'turnon';
+            topslides[currentSlide].className = 'topslide showing';
+        }
+
+        function goToSlide(n) {
+            topslides[currentSlide].className = 'topslide';
+            navi.children[currentSlide].className = 'turnoff';
+            currentSlide = (n+topslides.length)%topslides.length;
+            navi.children[currentSlide].className = 'turnon';
             topslides[currentSlide].className = 'topslide showing';
         }
 
@@ -30,7 +41,6 @@ $(document).ready(function() {
         top.onmouseout = function() {
             slideInterval = setInterval(nextSlide,2000);
         }
-
 
 
     });
