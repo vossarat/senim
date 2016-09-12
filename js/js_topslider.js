@@ -2,7 +2,8 @@ $(document).ready(function() {
 
         var topslides = document.querySelectorAll('#topslides .topslide');
         var currentSlide = 0;
-        var slideInterval = setInterval(nextSlide,2000);
+        var top = document.getElementById('topslides');
+        var slideInterval = setInterval(nextSlide,5000);
 
 
         var navi = document.getElementById('navi');
@@ -33,13 +34,12 @@ $(document).ready(function() {
             topslides[currentSlide].className = 'topslide showing';
         }
 
-        var top = document.getElementById('topslides');
         top.onmouseover = function() {
             clearInterval(slideInterval);
         }
 
         top.onmouseout = function() {
-            slideInterval = setInterval(nextSlide,2000);
+            slideInterval = setInterval(nextSlide,5000);
         }
 
 
