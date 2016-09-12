@@ -11,10 +11,10 @@ class controller
     function do_default_viewdata($template_positions = array(
             "header",
             "topmenu",
+            "topslider",
             "phone",
             "comment",
-            "footer",
-            "topslider"
+            "footer"            
         ))
     {
         foreach ($template_positions as $position) {

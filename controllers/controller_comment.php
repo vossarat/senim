@@ -1,4 +1,5 @@
 <?php
+
 class controller_comment extends controller
 {
     function __construct()
@@ -14,13 +15,13 @@ class controller_comment extends controller
     }
     
     function show($param1)
-    {
+    {    	
     	$viewdata = $this->do_default_viewdata();
         $viewdata["pagetitle"] = "Отзывы";        
         $content = $this->model->show($param1);
         $viewdata["content"] = $this->view->show_view("view_comment_general", $content);        
         $this->view->show_view('view_template', $viewdata, true);
     }
-
 }
+
 ?>

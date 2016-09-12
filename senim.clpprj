@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\OpenServer\domains\senim\senim.clpprj">
 	<settings><PM_URL><![CDATA[]]></PM_URL><PM_HOME_URL><![CDATA[]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_topslider.php"/>
-		<file name="C:\OpenServer\domains\senim\js\js_topslider.js"/>
-		<file name="C:\OpenServer\domains\senim\models\model_topslider.php"/>
-		<file name="C:\OpenServer\domains\senim\views\view_topslider.php"/>
-		<file name="C:\OpenServer\domains\senim\css\default.css"/>
-		<file name="C:\OpenServer\domains\senim\views\view_template.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
@@ -14,65 +8,65 @@
 	</laravael><todoblock>
 	</todoblock>
 	<filescache>
-		<file name="C:\OpenServer\domains\senim\views\view_topslider.php" crc="1473330152"/>
-		<file name="C:\OpenServer\domains\senim\views\view_topmenu.php" crc="1472471138"/>
-		<file name="C:\OpenServer\domains\senim\views\view_template.php" crc="1473311966"/>
-		<file name="C:\OpenServer\domains\senim\views\view_photogallery.php" crc="1472618347"/>
-		<file name="C:\OpenServer\domains\senim\views\view_phone_info.php" crc="1472639591"/>
-		<file name="C:\OpenServer\domains\senim\views\view_phone.php" crc="1472639875"/>
-		<file name="C:\OpenServer\domains\senim\views\view_letter.php" crc="1472467373"/>
-		<file name="C:\OpenServer\domains\senim\views\view_header.php" crc="1472806234"/>
-		<file name="C:\OpenServer\domains\senim\views\view_footer.php" crc="1472471655"/>
-		<file name="C:\OpenServer\domains\senim\views\view_family.php" crc="1472623674"/>
-		<file name="C:\OpenServer\domains\senim\views\view_default.php" crc="1472711097"/>
-		<file name="C:\OpenServer\domains\senim\views\view_criterion.php" crc="1472473297"/>
-		<file name="C:\OpenServer\domains\senim\views\view_creative.php" crc="1472625431"/>
-		<file name="C:\OpenServer\domains\senim\views\view_contact.php" crc="1472467372"/>
-		<file name="C:\OpenServer\domains\senim\views\view_comment_general.php" crc="1472473016"/>
-		<file name="C:\OpenServer\domains\senim\views\view_comment.php" crc="1472618347"/>
-		<file name="C:\OpenServer\domains\senim\views\view_about.php" crc="1472472087"/>
-		<file name="C:\OpenServer\domains\senim\views\view_404.php" crc="1472467371"/>
-		<file name="C:\OpenServer\domains\senim\models\model_topslider.php" crc="1472805928"/>
-		<file name="C:\OpenServer\domains\senim\models\model_topmenu.php" crc="1472624646"/>
-		<file name="C:\OpenServer\domains\senim\models\model_photogallery.php" crc="1472467370"/>
-		<file name="C:\OpenServer\domains\senim\models\model_phone.php" crc="1472639371"/>
-		<file name="C:\OpenServer\domains\senim\models\model_header.php" crc="1472470975"/>
-		<file name="C:\OpenServer\domains\senim\models\model_footer.php" crc="1472471666"/>
-		<file name="C:\OpenServer\domains\senim\models\model_family.php" crc="1472620338"/>
-		<file name="C:\OpenServer\domains\senim\models\model_default.php" crc="1472708428"/>
-		<file name="C:\OpenServer\domains\senim\models\model_criterion.php" crc="1472467369"/>
-		<file name="C:\OpenServer\domains\senim\models\model_creative.php" crc="1472623558"/>
-		<file name="C:\OpenServer\domains\senim\models\model_contact.php" crc="1472467369"/>
-		<file name="C:\OpenServer\domains\senim\models\model_comment.php" crc="1472624489"/>
-		<file name="C:\OpenServer\domains\senim\models\model_about.php" crc="1472624162"/>
-		<file name="C:\OpenServer\domains\senim\models\model_404.php" crc="1472467368"/>
-		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="1473327210"/>
-		<file name="C:\OpenServer\domains\senim\js\js_myslider.js" crc="1472815780"/>
-		<file name="C:\OpenServer\domains\senim\js\js_default.js" crc="1472708804"/>
-		<file name="C:\OpenServer\domains\senim\css\default.css" crc="1473334799"/>
-		<file name="C:\OpenServer\domains\senim\core\view.php" crc="1473236098"/>
-		<file name="C:\OpenServer\domains\senim\core\route.php" crc="1472470468"/>
-		<file name="C:\OpenServer\domains\senim\core\model.php" crc="1472467628"/>
-		<file name="C:\OpenServer\domains\senim\core\func.php" crc="1472467810"/>
-		<file name="C:\OpenServer\domains\senim\core\dbconfig.ini" crc="1472471566"/>
-		<file name="C:\OpenServer\domains\senim\core\database.php" crc="1472467600"/>
-		<file name="C:\OpenServer\domains\senim\core\controller.php" crc="1472805953"/>
-		<file name="C:\OpenServer\domains\senim\core\bootstrap.php" crc="1472468436"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_topslider.php" crc="1472805665"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_topmenu.php" crc="1472618347"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_photogallery.php" crc="1472618347"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_phone.php" crc="1472640240"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_header.php" crc="1472805673"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_footer.php" crc="1472471575"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_family.php" crc="1472640200"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_default.php" crc="1472708428"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_criterion.php" crc="1472473277"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_creative.php" crc="1472640193"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_contact.php" crc="1472640184"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_comment.php" crc="1472640170"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_about.php" crc="1472640157"/>
-		<file name="C:\OpenServer\domains\senim\controllers\controller_404.php" crc="1472618347"/>
-		<file name="C:\OpenServer\domains\senim\index.php" crc="1472471766"/>
-		<file name="C:\OpenServer\domains\senim\.htaccess" crc="1472618347"/>
+		<file name="C:\OpenServer\domains\senim\views\view_topslider.php" crc="1473606138"/>
+		<file name="C:\OpenServer\domains\senim\views\view_topmenu.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_template.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_photogallery.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_phone_info.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_phone.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_letter.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_header.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_footer.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_family.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_default.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_criterion.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_creative.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_contact.php" crc="1473688341"/>
+		<file name="C:\OpenServer\domains\senim\views\view_comment_general.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_comment.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_about.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\views\view_404.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_topslider.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_topmenu.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_photogallery.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_phone.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_header.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_footer.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_family.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_default.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_criterion.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_creative.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_contact.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_comment.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_about.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\models\model_404.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\js\js_topslider.js" crc="1473606500"/>
+		<file name="C:\OpenServer\domains\senim\js\js_default.js" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\js\js_comment.js" crc="1473687652"/>
+		<file name="C:\OpenServer\domains\senim\css\default.css" crc="1473606333"/>
+		<file name="C:\OpenServer\domains\senim\core\view.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\core\route.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\core\model.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\core\func.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\core\dbconfig.ini" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\core\database.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\core\controller.php" crc="1473689014"/>
+		<file name="C:\OpenServer\domains\senim\core\bootstrap.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_topslider.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_topmenu.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_photogallery.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_phone.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_header.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_footer.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_family.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_default.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_criterion.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_creative.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_contact.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_comment.php" crc="1473697558"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_about.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\controllers\controller_404.php" crc="1473486438"/>
+		<file name="C:\OpenServer\domains\senim\index.php" crc="1473486439"/>
+		<file name="C:\OpenServer\domains\senim\.htaccess" crc="1473486438"/>
 	</filescache>
 </project>
