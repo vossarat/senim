@@ -10,7 +10,7 @@ class controller_topslider extends controller
     function index()
     {
         $content = $this->model->get_viewdata();
-        return $this->view->show_view("view_topslider", $content, false, "js/js_topslider.js");
+        return $this->view->show_view("view_topslider", $content, false, HOMEDIR."/js/js_topslider.js");
     }
 }
 ?>

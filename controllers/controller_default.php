@@ -11,7 +11,7 @@ class controller_default extends controller
     function index()
     {
         $viewdata = $this->do_default_viewdata();		
-        $viewdata["content"] = $this->view->show_view("view_default", $content, false, "js/js_default.js");	
+        $viewdata["content"] = $this->view->show_view("view_default", $content, false, HOMEDIR."/js/js_default.js");	
         $this->view->show_view('view_template', $viewdata, true);
     }
     
