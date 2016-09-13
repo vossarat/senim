@@ -28,8 +28,6 @@ $(document).ready(function() {
                 }
             });
 
-        //$("#btn_send").on("click", send);
-
         function send() {
             $.ajax({
                     type: "POST",
@@ -47,6 +45,8 @@ $(document).ready(function() {
 
         function Callback( returnedData ) {
             $("#msg").html( returnedData );
+            $("#msg").css('color', 'green');
+            $("#frm_feedback").trigger( 'reset' );
         }
 
     });

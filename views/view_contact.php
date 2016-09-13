@@ -20,7 +20,7 @@
 		<input type="text" id="user_email" style="width:410px;" value="" /><br/>
 		
 		<label>Текст сообщения:</label><br/>
-		<textarea id="text_comment" style="width:410px; height:140px;" cols="80"></textarea>
+		<textarea id="text_letter" style="width:410px; height:140px;" cols="80"></textarea>
 		
 		<br/>
 		

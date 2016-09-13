@@ -13,6 +13,7 @@
     color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
     text-transform: uppercase;
+    border-bottom: 5px solid #fbd71a;
 }
 
 #topmenu ul {
