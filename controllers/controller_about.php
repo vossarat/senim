@@ -12,7 +12,7 @@ class controller_about extends controller
         $viewdata = $this->do_default_viewdata();
         $viewdata["pagetitle"] = "О центре";        
         $content = $this->model->get_viewdata();
-        $viewdata["content"] = $this->view->show_view("view_about", $content);        
+        $viewdata["content"] = $this->view->show_view("view_about", $content, false, HOMEDIR."/js/js_about.js");        
         $this->view->show_view('view_template', $viewdata, true);
     }
 
