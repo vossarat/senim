@@ -31,7 +31,7 @@ $(document).ready(function() {
         function send() {
             $.ajax({
                     type: "POST",
-                    url: "http://senim/contact",
+                    url: "/contact",
                     data: {
                         action: "send",
                         user_name: $("#user_name").val(),
