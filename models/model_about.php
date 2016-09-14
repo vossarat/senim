@@ -31,13 +31,12 @@ class model_about extends model
 
         <p><b>Каждый день, каждый час прохождения программы в центре направлен на полное выздоровление!!!</b></p>";
 
-        $dir   = "C:\\OpenServer\\domains\\senim\\images\\ppt\\";
+        $dir   = "images/ppt";
         $files = scandir($dir);
         array_shift($files);
         array_shift($files);    
         $viewdata["ppt"] = $files;
         return $viewdata;
-
     }
 }
 ?>
